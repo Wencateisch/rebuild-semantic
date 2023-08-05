@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/rebuild-semantic/static/css/main.073c9b0a.css",
+    "main.js": "/rebuild-semantic/static/js/main.21278d24.js",
+    "static/js/787.409a776f.chunk.js": "/rebuild-semantic/static/js/787.409a776f.chunk.js",
+    "static/media/logo.svg": "/rebuild-semantic/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/rebuild-semantic/index.html",
+    "main.073c9b0a.css.map": "/rebuild-semantic/static/css/main.073c9b0a.css.map",
+    "main.21278d24.js.map": "/rebuild-semantic/static/js/main.21278d24.js.map",
+    "787.409a776f.chunk.js.map": "/rebuild-semantic/static/js/787.409a776f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.21278d24.js"
+  ]
+}
