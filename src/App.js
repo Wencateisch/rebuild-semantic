@@ -1,24 +1,34 @@
-import logo from './logo.svg';
 import './App.css';
+import { Container } from 'semantic-ui-react';
+import Navbar from './Files/Navbar';
+import Help from './Files/Help';
+import  HomepageSlides  from './Files/HomepageSlides';
+import Cards from './Files/Cards';
+import Funds from './Files/Funds';
+import Giving from './Files/Giving';
+import RaiseHelp from './Files/RaiseHelp';
+import Get from './Files/Get';
+import Footer from './Files/Footer';
+import Testimonial from './Files/Testimonial';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <Help />
+      <Container>
+        <Navbar />
+        <HomepageSlides />
+        <Cards />
+        <Funds />
+        <Giving />
+        <Get />
+        <Testimonial />
+        <RaiseHelp />
+        <Footer />
+      </Container>
+      </>
+  
   );
 }
 
