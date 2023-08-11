@@ -6,9 +6,7 @@ import '../App.css'
 const Testimonial = () => {
   const Extra = (<>
   <Grid stackable>
-  <li><b>$ 3,47,584.635</b></li>
-  <li><Icon name='puzzle'></Icon>Limited days</li>
-    <li><Icon name='time'></Icon>24 days left</li>
+  <li><b>Shradha Kapoor</b></li>
   </Grid>
   </>)
   const Meta = (
