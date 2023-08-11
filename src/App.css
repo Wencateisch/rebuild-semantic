@@ -125,6 +125,9 @@ justify-content: space-between;
     /* border: 1px solid red !important; */
     margin-left: 80px !important;
   }
+  .Cardd .Div .card{
+    background-color:#edf7f9;
+  }
   blockquote:after {
     visibility: hidden;
     content: close-quote;
