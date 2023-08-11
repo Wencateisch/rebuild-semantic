@@ -20,19 +20,19 @@ const Testimonial = () => {
           <div className='Div'>
             <Grid stackable>
               <GridColumn width={5}>
-                <Card 
+                <Card className='Single' 
                 meta={Meta}
                 description='Elliot is a sound engineer living in Nashville who enjoys playing Elliot is a sound engineer living in Nashville who enjoys playing Elliot is a sound engineer living in Nashville who enjoys playing'
                  extra={Extra}/>
               </GridColumn>
               <GridColumn width={5}>
-                <Card
+                <Card className='Single'
                   meta={Meta}
                   description='Elliot is a sound engineer living in Nashville who enjoys playing Elliot is a sound engineer living in Nashville who enjoys playing Elliot is a sound engineer living in Nashville who enjoys playing'
                    extra={Extra}/>
               </GridColumn>
               <GridColumn width={5}>
-                <Card
+                <Card className='Single'
                   meta={Meta}
                   description='Elliot is a sound engineer living in Nashville who enjoys playing Elliot is a sound engineer living in Nashville who enjoys playing Elliot is a sound engineer living in Nashville who enjoys playing'
                    extra={Extra}/>
@@ -42,19 +42,19 @@ const Testimonial = () => {
           <div className='Div'>
             <Grid stackable>
               <GridColumn width={5}>
-                  <Card
+                  <Card className='Single'
                   meta={Meta}
                   description='Elliot is a sound engineer living in Nashville who enjoys playing Elliot is a sound engineer living in Nashville who enjoys playing Elliot is a sound engineer living in Nashville who enjoys playing'
                    extra={Extra}/>
                 </GridColumn>
                 <GridColumn width={5}>
-                  <Card
+                  <Card className='Single'
                     meta={Meta}
                     description='Elliot is a sound engineer living in Nashville who enjoys playing Elliot is a sound engineer living in Nashville who enjoys playing Elliot is a sound engineer living in Nashville who enjoys playing'
                      extra={Extra}/>
                 </GridColumn>
                 <GridColumn width={5}>
-                  <Card
+                  <Card className='Single'
                     meta={Meta}
                     description='Elliot is a sound engineer living in Nashville who enjoys playing Elliot is a sound engineer living in Nashville who enjoys playing Elliot is a sound engineer living in Nashville who enjoys playing'
                      extra={Extra}/>
@@ -64,19 +64,19 @@ const Testimonial = () => {
           <div className='Div'>
             <Grid stackable>
               <GridColumn width={5}>
-                  <Card
+                  <Card className='Single'
                   meta={Meta}
                   description='Elliot is a sound engineer living in Nashville who enjoys playing Elliot is a sound engineer living in Nashville who enjoys playing Elliot is a sound engineer living in Nashville who enjoys playing'
                    extra={Extra}/>
                 </GridColumn>
                 <GridColumn width={5}>
-                  <Card
+                  <Card className='Single'
                     meta={Meta}
                     description='Elliot is a sound engineer living in Nashville who enjoys playing Elliot is a sound engineer living in Nashville who enjoys playing Elliot is a sound engineer living in Nashville who enjoys playing'
                      extra={Extra}/>
                 </GridColumn>
                 <GridColumn width={5}>
-                  <Card
+                  <Card className='Single'
                     meta={Meta}
                     description='Elliot is a sound engineer living in Nashville who enjoys playing Elliot is a sound engineer living in Nashville who enjoys playing Elliot is a sound engineer living in Nashville who enjoys playing'
                      extra={Extra}/>
