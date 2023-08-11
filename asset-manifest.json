@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/rebuild-semantic/static/css/main.e4013f31.css",
-    "main.js": "/rebuild-semantic/static/js/main.1b10895b.js",
+    "main.css": "/rebuild-semantic/static/css/main.614f9a61.css",
+    "main.js": "/rebuild-semantic/static/js/main.f8b293e9.js",
     "static/js/787.409a776f.chunk.js": "/rebuild-semantic/static/js/787.409a776f.chunk.js",
     "static/media/brand-icons.svg": "/rebuild-semantic/static/media/brand-icons.6729d29753e000c17489.svg",
     "static/media/icons.svg": "/rebuild-semantic/static/media/icons.62d9dae4e0040e81c980.svg",
@@ -34,12 +34,12 @@
     "static/media/investment-money-capital-funds-svgrepo-com.svg": "/rebuild-semantic/static/media/investment-money-capital-funds-svgrepo-com.80d8d940ac14616de7e4a4754058c4f6.svg",
     "static/media/european-bank-monetary-fund-central-bank-euro-svgrepo-com.svg": "/rebuild-semantic/static/media/european-bank-monetary-fund-central-bank-euro-svgrepo-com.56961c825ef4fa604445d31a8b8dfb0a.svg",
     "index.html": "/rebuild-semantic/index.html",
-    "main.e4013f31.css.map": "/rebuild-semantic/static/css/main.e4013f31.css.map",
-    "main.1b10895b.js.map": "/rebuild-semantic/static/js/main.1b10895b.js.map",
+    "main.614f9a61.css.map": "/rebuild-semantic/static/css/main.614f9a61.css.map",
+    "main.f8b293e9.js.map": "/rebuild-semantic/static/js/main.f8b293e9.js.map",
     "787.409a776f.chunk.js.map": "/rebuild-semantic/static/js/787.409a776f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e4013f31.css",
-    "static/js/main.1b10895b.js"
+    "static/css/main.614f9a61.css",
+    "static/js/main.f8b293e9.js"
   ]
 }
