@@ -10,7 +10,7 @@ const Funds = () => {
         <Grid stackable>
             <GridColumn width={8} className='startfund'>
                 <Image src={fun} alt='logo'/>
-                <Button >Start a Fundraiser</Button>
+                <Button ><a href='https://agaram.in' target='_blank'>Start a Fundraiser</a></Button>
             </GridColumn>
             <GridColumn width={8} className='custom-counter'>
                 

@@ -3,26 +3,30 @@ import { Carousel } from 'react-responsive-carousel'
 import { Container, Image, Header, Grid, GridColumn, Card, Icon } from 'semantic-ui-react'
 import IMG from '../Images/best-fundraising-websites.jpeg'
 import '../App.css'
+import Flickity from 'react-flickity-component';
+import "../flickity.css";
 
 const Cards = () => {
-  const Extra = (<>
-  <Grid stackable>
-  <li><b>$ 3,47,584.635</b></li>
-  <li><Icon name='puzzle'></Icon>Limited days</li>
-    <li><Icon name='time'></Icon>24 days left</li>
-
-  </Grid>
+  const Extra = (
+  <>
+    <Grid stackable>
+      <li><b>$ 3,47,584.635</b></li>
+      <li><Icon name='puzzle'></Icon>Limited days</li>
+      <li><Icon name='time'></Icon>24 days left</li>
+    </Grid>
    
   </>)
 
-  return (
+  return (<>
+
     <Container className='Cardd'>
         <Header>Your donations make a difference</Header>
-        <p className='discover'>Discover more Fundraisers</p>
+        <p className='discover'><a href='https://agaram.in' target='_blank'>Discover more Fundraisers</a></p>
+       
 
-        <Carousel showArrows={true} showIndicators={false} >
+        <Flickity showArrows={true} showIndicators={false} >
           <div className='Div'>
-            <Grid stakable>
+            <Grid stakable doubling>
               <GridColumn width={5}>
                 <Card
                 image={IMG}
@@ -47,7 +51,7 @@ const Cards = () => {
             </Grid>
           </div>
           <div className='Div'>
-            <Grid stakable>
+            <Grid stakable doubling>
               <GridColumn width={5}>
                   <Card
                   image={IMG}
@@ -72,7 +76,7 @@ const Cards = () => {
               </Grid>
           </div>
           <div className='Div'>
-            <Grid stakable>
+            <Grid stakable doubling>
               <GridColumn width={5}>
                   <Card
                   image={IMG}
@@ -96,8 +100,9 @@ const Cards = () => {
                 </GridColumn>
               </Grid>
           </div>
-        </Carousel>
+        </Flickity>
     </Container>
+    </>
   )
 }
 

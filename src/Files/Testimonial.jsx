@@ -1,7 +1,9 @@
 import React from 'react'
-import { Carousel } from 'react-responsive-carousel'
+// import { Carousel } from 'react-responsive-carousel'
 import { Container, Header, Grid, GridColumn, Card, Icon } from 'semantic-ui-react'
 import '../App.css'
+import Flickity  from 'react-flickity-component'
+import '../flickity.css'
 
 const Testimonial = () => {
   const Extra = (<>
@@ -15,8 +17,8 @@ const Testimonial = () => {
 
   return (
     <Container className='Cardd'>
-        <Header className='testi'>Testimonials<Icon name='long arrow alternate left'></Icon><Icon name='long arrow alternate right'></Icon></Header>
-        <Carousel showArrows={true} showIndicators={false}>
+        <Header className='testi'>Testimonials</Header>
+        <Flickity >
           <div className='Div'>
             <Grid stackable>
               <GridColumn width={5}>
@@ -83,7 +85,7 @@ const Testimonial = () => {
                 </GridColumn>
               </Grid>
           </div>
-        </Carousel>
+        </Flickity>
     </Container>
   )
 }

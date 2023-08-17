@@ -42,12 +42,12 @@ const Footer = () => {
                 <li>Legal & fund</li>
             </GridColumn>
             <GridColumn width={3} className='social'>
-                <Button>Start a Fundraiser</Button><br/>
-                <Icon name='facebook circular'></Icon>
-                <Icon name='youtube circular'></Icon>
-                <Icon name='twitter circular'></Icon>
-                <Icon name='linkedin circular'></Icon>
-                <Icon name='instagram circular'></Icon>
+                <Button><a href='https://agaram.in' target='_blank'>Start a Fundraiser</a></Button><br/>
+                <a href='https://facebook.com' target='_blank'><Icon name='facebook circular'></Icon></a>
+                <a href='https://youtube.com' target='_blank'><Icon name='youtube circular'></Icon></a>
+                <a href='https://twitter.com' target='_blank'><Icon name='twitter circular'></Icon></a>
+                <a href='https://linkedin.com' target='_blank'><Icon name='linkedin circular'></Icon></a>
+                <a href='https://instagram.com' target='_blank'><Icon name='instagram circular'></Icon></a>
             </GridColumn>
         </Grid>
             <hr></hr>

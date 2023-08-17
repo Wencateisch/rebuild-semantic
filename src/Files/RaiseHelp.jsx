@@ -6,7 +6,7 @@ const RaiseHelp = () => {
   return (
     <Container fluid className='need'>
             <Header as='h3'>Need help to raise funds ? </Header>
-            <Button><Icon name='phone volume'></Icon>Request a call</Button>
+            <Button><a href="mailto:demo@demo.com"><Icon name='phone volume'/>Request a call</a></Button>
     </Container>
   )
 }

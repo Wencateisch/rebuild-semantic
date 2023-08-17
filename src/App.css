@@ -1,15 +1,21 @@
 .help span{
 float: right;
 margin-right: 250px;
+cursor: pointer;
+}
+.help span:hover{
+    color: orangered;
 }
 .help p{
     padding: 5px;
+    cursor:default;
 }
 .help  { 
 background-color: #035e5f;
 display: inline-block;
 color: white;
 text-align: center;
+
 justify-content: space-between;
 }
 .Home .carousel{
@@ -73,10 +79,19 @@ justify-content: space-between;
     align-items: center;
     text-align: center;
   }
-  .startfund .ui.button{
-    background-color: #035e5f;
-    color: #fff;
+  .startfund .ui.button a{
+    color: #fff !important;
    
+  }
+  .startfund .ui.button{
+    background-color: #035e5f !important;
+  }
+  .startfund .ui.button:hover{
+    background-color: gainsboro !important;
+ 
+  }
+  .startfund .ui.button a:hover{
+    color: #035e5f !important;
   }
   
   .custom-counter li::before {
@@ -148,6 +163,7 @@ justify-content: space-between;
 }
 .extra .ui.grid{
     display: flex;
+    /* margin-left: 0 !important; */
     margin: 10px;
 
 }
@@ -190,14 +206,30 @@ justify-content: space-between;
     background-color: #035e5f !important;
     color: #fff !important;
 }
+.need .button a{
+    background-color: #035e5f !important;
+    color: #fff !important; 
+}
+.need .button:hover{
+    scale: 1.05;
+}
+
 .Give{
     margin: 30px 0;
 }
 .getit{
-    background-color: black;
-    color: #fff;
+    background-color: black !important;
+    /* color: #fff !important; */
     border-radius: 5px;
     cursor: pointer;
+}
+.getMob button a{
+    color: #edf7f9 !important;
+}
+
+.getMob button:hover{
+    background-color: #035e5f !important;
+    color: #035e5f !important;
 }
 .svgs{
     height: 60px;
@@ -283,6 +315,15 @@ justify-content: space-between;
     background-color: #035e5f !important;
     color: #fff !important;
 }
+.social .button a{
+    color: #fff !important;
+}
+.social .button:hover{
+    scale: 1.05;
+}
+.social a .icon:hover{
+    scale: 1.05;
+}
 .MainFooter{
     margin: 10px 0;
 }
@@ -291,12 +332,24 @@ hr{
 }
 .Cardd{
     
-    margin: 10px 0;
+    margin: 50px 0;
 }
-.Cardd .carousel .ui.grid{
+.Cardd .flickity-viewport .ui.grid{
+    /* border: 1px solid red !important; */
+    width:95% !important;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 4.2rem !important;
     
-    margin-left: 5rem !important;
     
+}
+.flickity-viewport .ui.grid .column:hover{
+    scale: 1.03;
+    /* transition: step-start; */
+    text-decoration: #035e5f;
+}
+.ui.grid{
+    cursor: pointer;
 }
 .Cardd  .Div{
     margin-top: 10px  !important;
@@ -319,5 +372,12 @@ hr{
         display: flex;
         flex-direction: column;
         margin-bottom: 50px !important;
+    }
+}
+@media screen and (max-width : 600px) {
+    .getMob .ui.grid{
+        align-items: center !important;
+        display: flex !important;
+        justify-content: center !important;
     }
 }
