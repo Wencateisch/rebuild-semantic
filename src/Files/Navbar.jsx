@@ -57,7 +57,7 @@ const Navbar = () => {
   }
   return (
 
-          <Menu secondary className='menu' stackable fitted> 
+          <Menu secondary className='menu' stackable> 
             <Menu.Item>
               <Image src={Im} alt='logo'/>
             </Menu.Item>
@@ -93,9 +93,7 @@ const Navbar = () => {
                 <Icon className='Search' name='search'/>
               </Menu.Item>
               <Menu.Item  name='user'
-              // active={activeItem === 'user'}
               onClick={handleItemClick}>
-                {/* <Icon className='user' name='user' /> */}
                 <Dropdown trigger={trigger} options={options} />
               </Menu.Item>
           </Menu>

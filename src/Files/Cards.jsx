@@ -1,6 +1,5 @@
 import React from 'react'
-import { Carousel } from 'react-responsive-carousel'
-import { Container, Image, Header, Grid, GridColumn, Card, Icon } from 'semantic-ui-react'
+import { Container, Header, Grid, GridColumn, Card, Icon } from 'semantic-ui-react'
 import IMG from '../Images/best-fundraising-websites.jpeg'
 import '../App.css'
 import Flickity from 'react-flickity-component';
@@ -22,11 +21,9 @@ const Cards = () => {
     <Container className='Cardd'>
         <Header>Your donations make a difference</Header>
         <p className='discover'><a href='https://agaram.in' target='_blank'>Discover more Fundraisers</a></p>
-       
-
-        <Flickity showArrows={true} showIndicators={false} >
+        <Flickity >
           <div className='Div'>
-            <Grid stakable doubling>
+            <Grid stackable>
               <GridColumn width={5}>
                 <Card
                 image={IMG}
@@ -51,7 +48,7 @@ const Cards = () => {
             </Grid>
           </div>
           <div className='Div'>
-            <Grid stakable doubling>
+            <Grid stackable>
               <GridColumn width={5}>
                   <Card
                   image={IMG}
@@ -76,7 +73,7 @@ const Cards = () => {
               </Grid>
           </div>
           <div className='Div'>
-            <Grid stakable doubling>
+            <Grid stackable>
               <GridColumn width={5}>
                   <Card
                   image={IMG}
