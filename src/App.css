@@ -275,9 +275,27 @@ justify-content: space-between;
 .collect img{
     height: 260px;
 }
-.mobile img{
+.Mobile img{
+
     margin: 0 50px;
     height: 200px;
+}
+.Bar{
+    /* border: 1px solid red !important; */
+    display: flex !important;
+    width: 10% !important;
+    align-items: center !important;
+    justify-content: center !important;
+    text-align: center !important;
+    margin: 10px 0 !important;
+}
+.Bar .dropdown .menu{
+    display: flex !important;
+    align-items: center !important;
+
+}
+.Links{
+    text-align: center !important;
 }
 .scan img{
     height: 200px;
@@ -332,7 +350,6 @@ hr{
     margin: 50px 0;
 }
 .Cardd .flickity-viewport .ui.grid{
-    /* border: 1px solid red !important; */
     width:95% !important;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -342,9 +359,9 @@ hr{
 }
 .flickity-viewport .ui.grid .column:hover{
     scale: 1.03;
-    /* transition: step-start; */
     text-decoration: #035e5f;
 }
+
 .ui.grid{
     cursor: pointer;
 }
@@ -357,6 +374,12 @@ hr{
     
 }
 
+@media screen and (max-width : 760px ){
+    .flickity-viewport .ui.grid{
+        align-items: center !important;
+        text-align: center !important;
+    }
+}
 
 @media screen and (min-width: 480px) {
     .help {
@@ -378,8 +401,96 @@ hr{
         justify-content: center !important;
     }
 }
-@media screen and (max-width : 500px) {
+@media screen and (max-width : 767px) {
     .ui .card{
-        width:95% !important;
+        width:55% !important;
+        margin-right:35% !important;
     }
 }
+@media screen and (max-width : 767px) {
+    .MainFooter{
+        text-align: center;
+    }
+    .MainFooter .just img{
+        margin-left: 2%;
+    }
+    .MainFooter .just p{
+
+        text-align: center !important;
+    }
+    .MainFooter .foots{
+        display: inline-block !important;
+    }
+    .MainFooter .foots li{
+        padding: 3px;
+    }
+}
+/* Mobile */
+
+@media only screen and (max-width: 767px) {
+    [class*="mobile hidden"],
+    [class*="tablet only"]:not(.mobile),
+    [class*="computer only"]:not(.mobile),
+    [class*="large monitor only"]:not(.mobile),
+    [class*="widescreen monitor only"]:not(.mobile),
+    [class*="or lower hidden"] {
+      display: none !important;
+    }
+  }
+  
+  
+  /* Tablet / iPad Portrait */
+  
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    [class*="mobile only"]:not(.tablet),
+    [class*="tablet hidden"],
+    [class*="computer only"]:not(.tablet),
+    [class*="large monitor only"]:not(.tablet),
+    [class*="widescreen monitor only"]:not(.tablet),
+    [class*="or lower hidden"]:not(.mobile) {
+      display: none !important;
+    }
+  }
+  
+  
+  /* Computer / Desktop / iPad Landscape */
+  
+  @media only screen and (min-width: 992px) and (max-width: 1199px) {
+    [class*="mobile only"]:not(.computer),
+    [class*="tablet only"]:not(.computer),
+    [class*="computer hidden"],
+    [class*="large monitor only"]:not(.computer),
+    [class*="widescreen monitor only"]:not(.computer),
+    [class*="or lower hidden"]:not(.tablet):not(.mobile) {
+      display: none !important;
+    }
+  }
+  
+  
+  /* Large Monitor */
+  
+  @media only screen and (min-width: 1200px) and (max-width: 1919px) {
+    [class*="mobile only"]:not([class*="large monitor"]),
+    [class*="tablet only"]:not([class*="large monitor"]),
+    [class*="computer only"]:not([class*="large monitor"]),
+    [class*="large monitor hidden"],
+    [class*="widescreen monitor only"]:not([class*="large monitor"]),
+    [class*="or lower hidden"]:not(.computer):not(.tablet):not(.mobile) {
+      display: none !important;
+    }
+  }
+  
+  
+  /* Widescreen Monitor */
+  
+  @media only screen and (min-width: 1920px) {
+    [class*="mobile only"]:not([class*="widescreen monitor"]),
+    [class*="tablet only"]:not([class*="widescreen monitor"]),
+    [class*="computer only"]:not([class*="widescreen monitor"]),
+    [class*="large monitor only"]:not([class*="widescreen monitor"]),
+    [class*="widescreen monitor hidden"],
+    [class*="widescreen monitor or lower hidden"] {
+      display: none !important;
+    }
+  }
+  

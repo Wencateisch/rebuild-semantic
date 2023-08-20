@@ -23,8 +23,8 @@ const Giving = () => {
                 <Image src={Svg3} alt='' className='svgs'/><p><b>A holistic Zakat calculator</b><br/>
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae atque sunt aut, tempora dolorum quos officia ipsam ipsum esse dolor, excepturi mollitia illum eveniet</p>
             </GridColumn>
-            <GridColumn width={4} className='collect'>
-                <Image src={Svg} alt='logo'/>
+            <GridColumn width={4} className='collect' >
+                <Image centered src={Svg} alt='logo'/>
             </GridColumn>
             <GridColumn width={6} className='pSvg2'>
             <Image src={Svg4} alt='' className='svgs'/><p><b>Discover a cause you care</b><br/>

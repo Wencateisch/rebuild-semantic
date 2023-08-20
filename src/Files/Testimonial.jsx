@@ -1,6 +1,6 @@
 import React from 'react'
 // import { Carousel } from 'react-responsive-carousel'
-import { Container, Header, Grid, GridColumn, Card, Icon } from 'semantic-ui-react'
+import { Container, Header, Grid, GridColumn, Card } from 'semantic-ui-react'
 import '../App.css'
 import Flickity  from 'react-flickity-component'
 import '../flickity.css'
@@ -22,19 +22,19 @@ const Testimonial = () => {
           <div className='Div'>
             <Grid stackable>
               <GridColumn width={5}>
-                <Card className='Single' 
+                <Card centered className='Single' 
                 meta={Meta}
                 description='Elliot is a sound engineer living in Nashville who enjoys playing Elliot is a sound engineer living in Nashville who enjoys playing Elliot is a sound engineer living in Nashville who enjoys playing'
                  extra={Extra}/>
               </GridColumn>
               <GridColumn width={5}>
-                <Card className='Single'
+                <Card centered className='Single'
                   meta={Meta}
                   description='Elliot is a sound engineer living in Nashville who enjoys playing Elliot is a sound engineer living in Nashville who enjoys playing Elliot is a sound engineer living in Nashville who enjoys playing'
                    extra={Extra}/>
               </GridColumn>
               <GridColumn width={5}>
-                <Card className='Single'
+                <Card centered className='Single'
                   meta={Meta}
                   description='Elliot is a sound engineer living in Nashville who enjoys playing Elliot is a sound engineer living in Nashville who enjoys playing Elliot is a sound engineer living in Nashville who enjoys playing'
                    extra={Extra}/>
@@ -44,19 +44,19 @@ const Testimonial = () => {
           <div className='Div'>
             <Grid stackable>
               <GridColumn width={5}>
-                  <Card className='Single'
+                  <Card centered className='Single'
                   meta={Meta}
                   description='Elliot is a sound engineer living in Nashville who enjoys playing Elliot is a sound engineer living in Nashville who enjoys playing Elliot is a sound engineer living in Nashville who enjoys playing'
                    extra={Extra}/>
                 </GridColumn>
                 <GridColumn width={5}>
-                  <Card className='Single'
+                  <Card centered className='Single'
                     meta={Meta}
                     description='Elliot is a sound engineer living in Nashville who enjoys playing Elliot is a sound engineer living in Nashville who enjoys playing Elliot is a sound engineer living in Nashville who enjoys playing'
                      extra={Extra}/>
                 </GridColumn>
                 <GridColumn width={5}>
-                  <Card className='Single'
+                  <Card centered className='Single'
                     meta={Meta}
                     description='Elliot is a sound engineer living in Nashville who enjoys playing Elliot is a sound engineer living in Nashville who enjoys playing Elliot is a sound engineer living in Nashville who enjoys playing'
                      extra={Extra}/>
@@ -66,19 +66,19 @@ const Testimonial = () => {
           <div className='Div'>
             <Grid stackable>
               <GridColumn width={5}>
-                  <Card className='Single'
+                  <Card centered className='Single'
                   meta={Meta}
                   description='Elliot is a sound engineer living in Nashville who enjoys playing Elliot is a sound engineer living in Nashville who enjoys playing Elliot is a sound engineer living in Nashville who enjoys playing'
                    extra={Extra}/>
                 </GridColumn>
                 <GridColumn width={5}>
-                  <Card className='Single'
+                  <Card centered className='Single'
                     meta={Meta}
                     description='Elliot is a sound engineer living in Nashville who enjoys playing Elliot is a sound engineer living in Nashville who enjoys playing Elliot is a sound engineer living in Nashville who enjoys playing'
                      extra={Extra}/>
                 </GridColumn>
                 <GridColumn width={5}>
-                  <Card className='Single'
+                  <Card centered className='Single'
                     meta={Meta}
                     description='Elliot is a sound engineer living in Nashville who enjoys playing Elliot is a sound engineer living in Nashville who enjoys playing Elliot is a sound engineer living in Nashville who enjoys playing'
                      extra={Extra}/>

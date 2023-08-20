@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-target-blank */
 import React from 'react'
 import { Container, Header, Grid, GridColumn, Card, Icon } from 'semantic-ui-react'
 import IMG from '../Images/best-fundraising-websites.jpeg'
@@ -23,23 +24,23 @@ const Cards = () => {
         <p className='discover'><a href='https://agaram.in' target='_blank'>Discover more Fundraisers</a></p>
         <Flickity >
           <div className='Div'>
-            <Grid stackable>
+            <Grid stackable >
               <GridColumn width={5}>
-                <Card
+                <Card centered
                 image={IMG}
                 header='Need Emergency Medical'
                 description='Elliot is a sound engineer living in Nashville who enjoys playing Elliot is a sound engineer living in Nashville who enjoys playing Elliot is a sound engineer living in Nashville who enjoys playing'
-                 extra={Extra}/>
+                 extra={Extra} />
               </GridColumn>
               <GridColumn width={5}>
-                <Card
+                <Card centered
                   image={IMG}
                   header='Need Emergency Medical'
                   description='Elliot is a sound engineer living in Nashville who enjoys playing Elliot is a sound engineer living in Nashville who enjoys playing Elliot is a sound engineer living in Nashville who enjoys playing'
                    extra={Extra}/>
               </GridColumn>
               <GridColumn width={5}>
-                <Card
+                <Card centered
                   image={IMG}
                   header='Need Emergency Medical'
                   description='Elliot is a sound engineer living in Nashville who enjoys playing Elliot is a sound engineer living in Nashville who enjoys playing Elliot is a sound engineer living in Nashville who enjoys playing'
@@ -50,21 +51,21 @@ const Cards = () => {
           <div className='Div'>
             <Grid stackable>
               <GridColumn width={5}>
-                  <Card
+                  <Card centered
                   image={IMG}
                   header='Need Emergency Medical'
                   description='Elliot is a sound engineer living in Nashville who enjoys playing Elliot is a sound engineer living in Nashville who enjoys playing Elliot is a sound engineer living in Nashville who enjoys playing'
                    extra={Extra}/>
                 </GridColumn>
                 <GridColumn width={5}>
-                  <Card
+                  <Card centered
                     image={IMG}
                     header='Need Emergency Medical'
                     description='Elliot is a sound engineer living in Nashville who enjoys playing Elliot is a sound engineer living in Nashville who enjoys playing Elliot is a sound engineer living in Nashville who enjoys playing'
                      extra={Extra}/>
                 </GridColumn>
                 <GridColumn width={5}>
-                  <Card
+                  <Card centered
                     image={IMG}
                     header='Need Emergency Medical'
                     description='Elliot is a sound engineer living in Nashville who enjoys playing Elliot is a sound engineer living in Nashville who enjoys playing Elliot is a sound engineer living in Nashville who enjoys playing'
@@ -75,21 +76,21 @@ const Cards = () => {
           <div className='Div'>
             <Grid stackable>
               <GridColumn width={5}>
-                  <Card
+                  <Card centered
                   image={IMG}
                   header='Need Emergency Medical'
                   description='Elliot is a sound engineer living in Nashville who enjoys playing Elliot is a sound engineer living in Nashville who enjoys playing Elliot is a sound engineer living in Nashville who enjoys playing'
                    extra={Extra}/>
                 </GridColumn>
                 <GridColumn width={5}>
-                  <Card
+                  <Card centered
                     image={IMG}
                     header='Need Emergency Medical'
                     description='Elliot is a sound engineer living in Nashville who enjoys playing Elliot is a sound engineer living in Nashville who enjoys playing Elliot is a sound engineer living in Nashville who enjoys playing'
                      extra={Extra}/>
                 </GridColumn>
                 <GridColumn width={5}>
-                  <Card
+                  <Card centered
                     image={IMG}
                     header='Need Emergency Medical'
                     description='Elliot is a sound engineer living in Nashville who enjoys playing Elliot is a sound engineer living in Nashville who enjoys playing Elliot is a sound engineer living in Nashville who enjoys playing'

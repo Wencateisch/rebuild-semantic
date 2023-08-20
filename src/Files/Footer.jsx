@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-target-blank */
 import React from 'react'
 import { Button, Container, Grid, GridColumn, Image, Icon, } from 'semantic-ui-react'
 import '../App.css'
