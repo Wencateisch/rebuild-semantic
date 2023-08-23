@@ -9,6 +9,7 @@
     "@testing-library/user-event": "^13.5.0",
     "dotenv": "^16.3.1",
     "flickity": "^2.3.0",
+    "prettier": "^3.0.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-flickity-component": "^4.0.6",
@@ -23,13 +24,17 @@
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "test": "react-scripts test",
+    "format": "prettier --ignore-path .gitignore --write \"**/*.{js,jsx,css,scss}\"",
+    "lint": "eslint --ignore-path .gitignore .",
     "eject": "react-scripts eject",
     "build": "react-scripts --max_old_space_size=4096 build"
   },
   "eslintConfig": {
     "extends": [
       "react-app",
-      "react-app/jest"
+      "react-app/jest",
+      "plugin:jest-dom/recommended",
+      "eslint-config-prettier"
     ]
   },
   "browserslist": {
@@ -45,6 +50,7 @@
     ]
   },
   "devDependencies": {
+    "eslint-plugin-jest-dom": "^5.0.2",
     "gh-pages": "^5.0.0"
   }
 }
