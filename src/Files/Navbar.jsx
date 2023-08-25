@@ -139,7 +139,7 @@ const Navbar = () => {
           name="download"
           active={activeItem === "download"}
         >
-          <Button basic onClick={HandleDownload}>
+          <Button basic onClick={HandleDownload} data-testid="download-app">
             Download App
           </Button>
         </Menu.Item>

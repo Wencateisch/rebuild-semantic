@@ -31,7 +31,7 @@ const Get = () => {
             <a href="https://www.apple.com/app-store" target="_blank">
               <Icon name="apple"></Icon>Download it on <br /> <b>App Store</b>
             </a>
-          </button>{" "}
+          </button>
           &nbsp;&nbsp;&nbsp;
           <button className="getit play">
             <a href="https://play.google.com" target="_blank">

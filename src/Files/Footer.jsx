@@ -19,7 +19,7 @@ const Footer = () => {
           <Image src={Box} alt="logo"></Image>
           <p>CREED</p>
         </GridColumn>
-        <GridColumn width={2}>
+        <GridColumn width={2} data-testid="ListItems">
           <li>
             <b>Get to know us</b>
           </li>
@@ -28,7 +28,7 @@ const Footer = () => {
           <li>About us</li>
           <li>Legal & fund</li>
         </GridColumn>
-        <GridColumn width={2}>
+        <GridColumn width={2} data-testid="ListItems2">
           <li>
             <b>Get to know us</b>
           </li>
@@ -37,7 +37,7 @@ const Footer = () => {
           <li>About us</li>
           <li>Legal & fund</li>
         </GridColumn>
-        <GridColumn width={2}>
+        <GridColumn width={2} data-testid="ListItems3">
           <li>
             <b>Get to know us</b>
           </li>
@@ -46,7 +46,7 @@ const Footer = () => {
           <li>About us</li>
           <li>Legal & fund</li>
         </GridColumn>
-        <GridColumn width={2}>
+        <GridColumn width={2} data-testid="ListItems4">
           <li>
             <b>Get to know us</b>
           </li>
@@ -86,7 +86,7 @@ const Footer = () => {
           2021 CREED. All rights reserved. &nbsp;
           <span>Digital partner that worldwide</span>
         </p>
-        <span className="Sp">
+        <span className="Sp" data-testid="Sp">
           <li>Apps</li>
           <li>Support</li>
           <li>Guild</li>

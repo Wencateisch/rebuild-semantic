@@ -19,7 +19,9 @@ const Testimonial = () => {
 
   return (
     <Container className="Cardd">
-      <Header className="testi">Testimonials</Header>
+      <Header className="testi" data-testid="Header1">
+        Testimonials
+      </Header>
       <Flickity>
         <div className="Div">
           <Grid stackable>

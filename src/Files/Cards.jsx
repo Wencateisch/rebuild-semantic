@@ -33,9 +33,9 @@ const Cards = () => {
   return (
     <>
       <Container className="Cardd">
-        <Header>Your donations make a difference</Header>
+        <Header data-testid="Heading">Your donations make a difference</Header>
         <p className="discover">
-          <a href="https://agaram.in" target="_blank">
+          <a href="https://agaram.in" target="_blank" data-testid="Link1">
             Discover more Fundraisers
           </a>
         </p>

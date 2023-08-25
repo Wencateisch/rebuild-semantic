@@ -22,13 +22,13 @@ const HomepageSlides = () => {
         showStatus={false}
       >
         <div>
-          <img src={Images} alt="logo" />
+          <img src={Images} alt="logo1" />
         </div>
         <div>
-          <img src={Images2} alt="logo" />
+          <img src={Images2} alt="logo2" />
         </div>
         <div>
-          <img src={Images3} alt="logo" />
+          <img src={Images3} alt="logo3" />
         </div>
       </Carousel>
     </Container>

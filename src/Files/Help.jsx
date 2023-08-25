@@ -13,7 +13,7 @@ const Help = () => {
   };
   return (
     <Container className="help" fluid>
-      <p>
+      <p data-testid="Hide">
         Lorem ipsum dolor sit, amet consectetur adipisicing elit.
         <span onClick={HandleClick}>X</span>
       </p>

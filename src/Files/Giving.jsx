@@ -12,11 +12,13 @@ import Svg6 from "../Images/FundSvg/investment-money-capital-funds-svgrepo-com.s
 const Giving = () => {
   return (
     <Container className="Give">
-      <h3 className="creedh3">Why CREED Giving ?</h3>
+      <h3 className="creedh3" data-testid="Heading">
+        Why CREED Giving ?
+      </h3>
       <Grid stackable>
         <GridColumn width={6} className="pSvg">
           <Image src={Svg1} alt="" className="svgs" />
-          <p>
+          <p data-testid="Paragraph1">
             <b>A better way to donate</b>
             <br />
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae
@@ -24,7 +26,7 @@ const Giving = () => {
             excepturi mollitia illum eveniet
           </p>
           <Image src={Svg2} alt="" className="svgs" />
-          <p>
+          <p data-testid="Paragraph1">
             <b>CREED Giving is FREE</b>
             <br />
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae
@@ -32,7 +34,7 @@ const Giving = () => {
             excepturi mollitia illum eveniet
           </p>
           <Image src={Svg3} alt="" className="svgs" />
-          <p>
+          <p data-testid="Paragraph1">
             <b>A holistic Zakat calculator</b>
             <br />
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae
@@ -45,7 +47,7 @@ const Giving = () => {
         </GridColumn>
         <GridColumn width={6} className="pSvg2">
           <Image src={Svg4} alt="" className="svgs" />
-          <p>
+          <p data-testid="Paragraph1">
             <b>Discover a cause you care</b>
             <br />
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae
@@ -53,7 +55,7 @@ const Giving = () => {
             excepturi mollitia illum eveniet
           </p>
           <Image src={Svg5} alt="" className="svgs" />
-          <p>
+          <p data-testid="Paragraph1">
             <b>Track your donations</b>
             <br />
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae
@@ -61,7 +63,7 @@ const Giving = () => {
             excepturi mollitia illum eveniet
           </p>
           <Image src={Svg6} alt="" className="svgs" />
-          <p>
+          <p data-testid="Paragraph1">
             <b>A trusted platform</b>
             <br />
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae
